@@ -1,0 +1,20 @@
+{
+  "name": "shishir-portfolio",
+  "version": "1.0.0",
+  "description": "Shishir Kumar Talukder's Professional Portfolio",
+  "scripts": {
+    "build": "node build/minify.js",
+    "watch": "nodemon build/minify.js"
+  },
+  "dependencies": {
+    "clean-css": "^5.3.2",
+    "uglify-js": "^3.17.4",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

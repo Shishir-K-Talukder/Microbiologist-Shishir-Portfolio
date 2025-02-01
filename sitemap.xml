@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:social="http://www.google.com/schemas/sitemap-social/1.0">
+    <url>
+        <loc>https://shishirkumartalukder.com/</loc>
+        <lastmod>2025-02-01T16:25:51+06:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shishirkumartalukder.com/"/>
+        <xhtml:link rel="alternate" hreflang="bn" href="https://shishirkumartalukder.com/bn/"/>
+        <mobile:mobile type="responsive"/>
+        <image:image>
+            <image:loc>https://shishirkumartalukder.com/assets/images/Hero.webp</image:loc>
+            <image:title>Shishir Kumar Talukder - Microbiologist</image:title>
+            <image:caption>Professional profile of Shishir Kumar Talukder, expert in microbiology and research</image:caption>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+            <image:geo_location>Dhaka, Bangladesh</image:geo_location>
+        </image:image>
+        <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+            <DataObject type="person">
+                <Attribute name="name">Shishir Kumar Talukder</Attribute>
+                <Attribute name="role">Microbiologist</Attribute>
+                <Attribute name="organization">Research Institute</Attribute>
+            </DataObject>
+        </PageMap>
+    </url>
+    <url>
+        <loc>https://shishirkumartalukder.com/research.html</loc>
+        <lastmod>2025-02-01T16:25:51+06:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shishirkumartalukder.com/research.html"/>
+        <xhtml:link rel="alternate" hreflang="bn" href="https://shishirkumartalukder.com/bn/research.html"/>
+        <mobile:mobile type="responsive"/>
+        <image:image>
+            <image:loc>https://shishirkumartalukder.com/assets/images/research1.webp</image:loc>
+            <image:title>Microbiology Research Projects</image:title>
+            <image:caption>Overview of current research projects in microbiology and biotechnology</image:caption>
+            <image:geo_location>Laboratory, Bangladesh</image:geo_location>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+        <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+            <DataObject type="research">
+                <Attribute name="category">Microbiology</Attribute>
+                <Attribute name="focus">Biotechnology</Attribute>
+            </DataObject>
+        </PageMap>
+    </url>
+    <url>
+        <loc>https://shishirkumartalukder.com/research-details.html</loc>
+        <lastmod>2025-02-01T16:25:51+06:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shishirkumartalukder.com/research-details.html"/>
+        <xhtml:link rel="alternate" hreflang="bn" href="https://shishirkumartalukder.com/bn/research-details.html"/>
+        <mobile:mobile type="responsive"/>
+        <image:image>
+            <image:loc>https://shishirkumartalukder.com/images/research-details.jpg</image:loc>
+            <image:title>Detailed Research Findings</image:title>
+            <image:caption>In-depth analysis of microbiology research findings and methodologies</image:caption>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+        <video:video>
+            <video:title>Research Methodology Explanation</video:title>
+            <video:description>Detailed explanation of research methodologies in microbiology</video:description>
+            <video:content_loc>https://shishirkumartalukder.com/videos/research-methodology.mp4</video:content_loc>
+            <video:duration>360</video:duration>
+            <video:publication_date>2025-02-01T16:25:51+06:00</video:publication_date>
+        </video:video>
+    </url>
+    <url>
+        <loc>https://shishirkumartalukder.com/contact.html</loc>
+        <lastmod>2025-02-01T16:25:51+06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shishirkumartalukder.com/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="bn" href="https://shishirkumartalukder.com/bn/contact.html"/>
+        <mobile:mobile type="responsive"/>
+        <social:social>
+            <social:platform>LinkedIn</social:platform>
+            <social:url>https://www.linkedin.com/in/shishir-kumar-talukder/</social:url>
+        </social:social>
+        <social:social>
+            <social:platform>ResearchGate</social:platform>
+            <social:url>https://www.researchgate.net/profile/Shishir-Kumar-Talukder</social:url>
+        </social:social>
+    </url>
+    <url>
+        <loc>https://shishirkumartalukder.com/about.html</loc>
+        <lastmod>2025-02-01T16:25:51+06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shishirkumartalukder.com/about.html"/>
+        <xhtml:link rel="alternate" hreflang="bn" href="https://shishirkumartalukder.com/bn/about.html"/>
+        <mobile:mobile type="responsive"/>
+        <image:image>
+            <image:loc>https://shishirkumartalukder.com/assets/images/profile1.webp</image:loc>
+            <image:title>About Shishir Kumar Talukder</image:title>
+            <image:caption>Professional background and achievements in microbiology research and biotechnology, Medical Assistant</image:caption>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+        <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+            <DataObject type="person">
+                <Attribute name="name">Shishir Kumar Talukder</Attribute>
+                <Attribute name="education">Ph.D. in Microbiology</Attribute>
+                <Attribute name="expertise">Biotechnology, Medical Research</Attribute>
+            </DataObject>
+        </PageMap>
+    </url>
+</urlset>
+        </image:image>
+        <video:video>
+            <video:title>Research Methodology Explanation</video:title>
+            <video:description>Detailed explanation of research methodologies in microbiology</video:description>
+            <video:content_loc>https://shishirkumartalukder.com/videos/research-methodology.mp4</video:content_loc>
+            <video:duration>360</video:duration>
+            <video:publication_date>2025-02-01T16:25:51+06:00</video:publication_date>
+        </video:video>
+    </url>
+    <url>
+        <loc>https://shishirkumartalukder.com/contact.html</loc>
+        <lastmod>2025-02-01T16:25:51+06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shishirkumartalukder.com/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="bn" href="https://shishirkumartalukder.com/bn/contact.html"/>
+        <mobile:mobile type="responsive"/>
+        <social:social>
+            <social:platform>LinkedIn</social:platform>
+            <social:url>https://www.linkedin.com/in/shishir-kumar-talukder/</social:url>
+        </social:social>
+        <social:social>
+            <social:platform>ResearchGate</social:platform>
+            <social:url>https://www.researchgate.net/profile/Shishir-Kumar-Talukder</social:url>
+        </social:social>
+    </url>
+    <url>
+        <loc>https://shishirkumartalukder.com/about.html</loc>
+        <lastmod>2025-02-01T16:25:51+06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shishirkumartalukder.com/about.html"/>
+        <xhtml:link rel="alternate" hreflang="bn" href="https://shishirkumartalukder.com/bn/about.html"/>
+        <mobile:mobile type="responsive"/>
+        <image:image>
+            <image:loc>https://shishirkumartalukder.com/assets/images/profile1.webp</image:loc>
+            <image:title>About Shishir Kumar Talukder</image:title>
+            <image:caption>Professional background and achievements in microbiology research and biotechnology, Medical Assistant</image:caption>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+        <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+            <DataObject type="person">
+                <Attribute name="name">Shishir Kumar Talukder</Attribute>
+                <Attribute name="education">Bsc. in Microbiology</Attribute>
+                <Attribute name="expertise">Biotechnology, Medical Research</Attribute>
+            </DataObject>
+        </PageMap>
+    </url>
+</urlset>

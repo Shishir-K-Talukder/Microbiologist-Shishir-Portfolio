@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Contact | Shishir Kumar Talukder | Microbiologist">
+    <meta property="og:description" content="Leading researcher in Advanced Microbiology, specializing in antibiotic resistance and microbial ecology. Explore groundbreaking research and publications.">
+    <title>Contact | Shishir Kumar Talukder | Microbiologist</title>
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: https:; font-src 'self' https: data:;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="css/styles.min.css" as="style">
+    <link rel="preload" href="css/contact.min.css" as="style">
+    <link rel="preload" href="css/navbar.min.css" as="style">
+    <link rel="preload" href="js/security.min.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="assets/images/Logo .png">
+    <!-- Defer Non-Critical CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'">
+</head>
+<body>
+    <!-- Add popup HTML -->
+    <div class="popup-overlay" id="popupOverlay"></div>
+    <div class="popup" id="thankYouPopup">
+        <span class="popup-close" onclick="closePopup()">&times;</span>
+        <h3>Thank You!</h3>
+        <p id="popup-content">Your message has been sent successfully. I'll get back to you soon!</p>
+    </div>
+
+    <section class="contact-hero">
+        <div class="contact-hero-content" data-aos="fade-up">
+            <h1>Get in Touch</h1>
+            <p>Have questions about my research or interested in collaboration? I'd love to hear from you.</p>
+        </div>
+    </section>
+
+    <div class="contact-container">
+        <div class="contact-grid">
+            <div class="contact-info" data-aos="fade-right">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-item-content">
+                        <h3>Email</h3>
+                        <p>Shishir.talukdar.017@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="contact-item-content">
+                        <h3>Phone</h3>
+                        <p>+880 1773-006940</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-item-content">
+                        <h3>Location</h3>
+                        <p>IIAST University<br>Affiliated (RU), Rangpur</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div class="contact-item-content">
+                        <h3>Office Hours</h3>
+                        <p>Sunday - Thursday<br>10:00 AM - 3:00 PM +6GTM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form" data-aos="fade-left">
+                <form id="contact-form" class="contact-form" data-aos="fade-up">
+                    <input type="hidden" name="csrf_token" id="csrf_token">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required pattern="[A-Za-z\s]{2,50}" title="Please enter a valid name (2-50 characters)">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required minlength="2" maxlength="100">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required minlength="10" maxlength="1000"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="social-links" data-aos="fade-up">
+            <a href="https://www.linkedin.com/in/shishir-kumar-talukder-35910b347" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/Shishir.Talukdar.3?mibextid=JRoKGi" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+            <a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+            <a href="https://wa.me/+8801773006940" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <div class="location-map" data-aos="fade-up">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.637284433019!2d89.26540497449191!3d25.716430710475954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e32dc0cd3ab6a5%3A0xb7cb3917a888e09a!2s(IIAST)%20International%20Institute%20of%20applied%20science%20%26%20technology!5e0!3m2!1sen!2sbd!4v1737813123497!5m2!1sen!2sbd"
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+
+    <!-- Call to Action -->
+    <section class="section cta-section" style="background: var(--gradient); color: var(--white); text-align: center; padding: 80px 0; position: relative; overflow: hidden;">
+        <div class="container" style="position: relative; z-index: 2;">
+            <span class="badge" style="background: rgba(255, 255, 255, 0.2); color: var(--white); margin-bottom: 20px;">Research Opportunities</span>
+            <h2 style="color: var(--white); font-size: 2.5rem; margin-bottom: 25px;">Let's Push the Boundaries of Innovation Together</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+                Whether you're interested in collaborative research, academic partnerships, or exploring cutting-edge technologies, 
+                I'm always excited to connect with fellow innovators and visionaries.
+            </p>
+
+        </div>
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIvPjwvc3ZnPg==') repeat; opacity: 0.1;"></div>
+    </section>
+
+
+ <!-- Navigation Bar -->
+ <nav class="bottom-nav">
+    <div>
+        <a href="index.html" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <i class="fas fa-user"></i>
+            <span>About</span>
+        </a>
+        <a href="research.html" class="nav-item">
+            <i class="fas fa-microscope"></i>
+            <span>Research</span>
+        </a>
+        <a href="contact.html" class="nav-item active">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+    </div>
+</nav>
+
+    <style>
+        .nav-item:hover {
+            color: var(--white) !important;
+        }
+        .nav-item:hover i {
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .nav-item:hover span:last-child {
+            opacity: 1;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+    </style>
+
+    <!-- Scripts -->
+    <script src="js/security.min.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script>
+        // Initialize AOS with reduced motion preference check
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                AOS.init({
+                    duration: 800,
+                    once: true,
+                    offset: 50
+                });
+            }
+        });
+    </script>
+    <script>
+        // Function to show popup
+        function showPopup(message, isError = false) {
+            const popup = document.getElementById('thankYouPopup');
+            const overlay = document.getElementById('popupOverlay');
+            const content = popup.querySelector('#popup-content');
+            
+            content.innerHTML = message;
+            popup.className = `popup ${isError ? 'error' : 'success'}`;
+            
+            popup.style.display = 'block';
+            overlay.style.display = 'block';
+        }
+
+        // Function to close popup
+        function closePopup() {
+            document.getElementById('thankYouPopup').style.display = 'none';
+            document.getElementById('popupOverlay').style.display = 'none';
+        }
+
+        // Handle form submission
+        async function sendEmail(event) {
+            event.preventDefault();
+            
+            const form = event.target;
+            const submitButton = form.querySelector('button[type="submit"]');
+            const originalButtonText = submitButton.innerHTML;
+            
+            // Basic client-side validation
+            const email = form.email.value.trim();
+            if (!isValidEmail(email)) {
+                showPopup('Please enter a valid email address.', true);
+                return;
+            }
+            
+            // Check for suspicious patterns
+            if (containsSuspiciousContent(form)) {
+                showPopup('Your message contains invalid content.', true);
+                return;
+            }
+            
+            // Disable form and show loading state
+            submitButton.disabled = true;
+            submitButton.innerHTML = 'Sending...';
+            
+            const formData = {
+                name: form.name.value.trim(),
+                email: email,
+                subject: form.subject.value.trim(),
+                message: form.message.value.trim(),
+                csrf_token: form.csrf_token.value
+            };
+
+            try {
+                const response = await fetch('./send_email.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'X-Requested-With': 'XMLHttpRequest'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    showPopup('Thank you for your message! I will get back to you soon.');
+                    form.reset();
+                } else {
+                    const errorMessage = data.error || data.message || 'Failed to send message. Please try again later.';
+                    showPopup(errorMessage, true);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showPopup('An error occurred. Please try again later.', true);
+            } finally {
+                // Re-enable form
+                submitButton.disabled = false;
+                submitButton.innerHTML = originalButtonText;
+            }
+        }
+        
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+        
+        function containsSuspiciousContent(form) {
+            const message = form.message.value.toLowerCase();
+            const subject = form.subject.value.toLowerCase();
+            
+            // Check for excessive URLs
+            const urlCount = (message.match(/https?:\/\/|www\./g) || []).length;
+            if (urlCount > 2) return true;
+            
+            // Check for suspicious patterns
+            const suspiciousPatterns = [
+                /\b(viagra|cialis|casino|porn|sex|xxx)\b/i,
+                /\b(buy|sell|cheap|discount|free|offer|price)\b.*\b(now|today|limited)\b/i,
+                /\[url=|<a\s+href/i,
+                /(.)\1{4,}/  // Repeated characters
+            ];
+            
+            const contentToCheck = subject + ' ' + message;
+            return suspiciousPatterns.some(pattern => pattern.test(contentToCheck));
+        }
+    </script>
+</body>
+</html>
