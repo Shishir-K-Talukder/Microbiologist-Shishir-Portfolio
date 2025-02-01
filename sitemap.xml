@@ -3,26 +3,31 @@
    <url>
       <loc>https://shishirkumartalukder.com/index.html</loc>
       <lastmod>2025-02-01</lastmod>
+      <changefreq>monthly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://shishirkumartalukder.com/about.html</loc>
       <lastmod>2025-02-01</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://shishirkumartalukder.com/contact.html</loc>
       <lastmod>2025-02-01</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://shishirkumartalukder.com/research.html</loc>
       <lastmod>2025-02-01</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://shishirkumartalukder.com/research-details.html</loc>
       <lastmod>2025-02-01</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.7</priority>
    </url>
 </urlset>
