@@ -2,12 +2,12 @@
 
 return [
     'smtp' => [
-        'host' => 'smtp.gmail.com',
-        'port' => 587,
-        'encryption' => 'tls',
-        'username' => '',
-        'password' => '',
-        'from_email' => '',
+        'host' => 'smtpv1.mailtiz.com',
+        'port' => 465,
+        'encryption' => 'ssl',
+        'username' => 'shishirk',
+        'password' => 'xzP9!1A(OknL98',
+        'from_email' => 'shishir.talukdar.017@gmail.com',
         'from_name' => 'Portfolio Contact',
         
         // Connection settings
